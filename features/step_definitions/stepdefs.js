@@ -7,8 +7,8 @@ const {
   setDefaultTimeout
 } = require("cucumber");
 const { Builder, By } = require("selenium-webdriver");
-const { expect } = require("chai");
 const chrome = require("selenium-webdriver/chrome");
+const { strictEqual } = require("assert");
 
 require("chromedriver");
 
@@ -34,12 +34,10 @@ Given(/^Navigate to the sandbox$/, async () => {
 
 When(/^I am on the sandbox page$/, async () => {
   const title = await browser.getTitle();
-  expect(title).to.equal("Sandbox");
+  strictEqual(title, "Sandbox");
 });
 
 Then(/^The page header should be "([^"]*)"$/, async expectedHeader => {
   const header = await browser.findElement(By.css("h1"));
-  header.getText().then(text => {
-    expect(text).to.equal(expectedHeader);
-  });
+  strictEqual(await header.getText(), expectedHeader);
 });
