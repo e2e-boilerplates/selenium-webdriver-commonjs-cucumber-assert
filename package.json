@@ -1,0 +1,38 @@
+{
+  "name": "selenium-webdriver-commonjs-cucumber-chai",
+  "version": "1.0.0",
+  "description": "selenium-webdriver end-to-end test automation boilerplate project. Using commonjs, cucumber & chai",
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "keywords": [
+    "selenium-webdriver",
+    "cucumber",
+    "boilerplate",
+    "example"
+  ],
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "husky": "4.2.1",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1"
+  },
+  "dependencies": {
+    "chai": "4.2.0",
+    "chromedriver": "79.0.2",
+    "cucumber": "6.0.5",
+    "selenium-webdriver": "4.0.0-alpha.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
