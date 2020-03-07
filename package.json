@@ -1,5 +1,5 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "dependencies": {
     "chromedriver": "79.0.3",
     "cucumber": "6.0.5",
@@ -24,13 +24,8 @@
   },
   "keywords": [
     "assert",
-    "boilerplate",
     "commonjs",
     "cucumberjs",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "selenium",
     "selenium-webdriver",
     "webdriver"
