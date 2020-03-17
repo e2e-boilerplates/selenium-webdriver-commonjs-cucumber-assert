@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/selenium-webdriver-commonjs-cucumber-assert](https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-cucumber-assert/workflows/selenium-webdriver-commonjs-cucumber-assert/badge.svg)](https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-cucumber-assert/actions?workflow=selenium-webdriver-commonjs-cucumber-assert)
+[![GitHub Actions status | e2e-boilerplate/selenium-webdriver-commonjs-cucumber-assert](https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-cucumber-assert/workflows/selenium-webdriver-commonjs-cucumber-assert/badge.svg)](https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-cucumber-assert/actions?workflow=selenium-webdriver-commonjs-cucumber-assert) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Selenium-WebDriver Boilerplate
 
