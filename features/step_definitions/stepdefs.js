@@ -4,7 +4,7 @@ const {
   Then,
   BeforeAll,
   AfterAll,
-  setDefaultTimeout
+  setDefaultTimeout,
 } = require("cucumber");
 const { Builder, By } = require("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
@@ -37,7 +37,7 @@ When(/^I am on the sandbox page$/, async () => {
   strictEqual(title, "Sandbox");
 });
 
-Then(/^The page header should be "([^"]*)"$/, async expectedHeader => {
+Then(/^The page header should be "([^"]*)"$/, async (expectedHeader) => {
   const header = await browser.findElement(By.css("h1"));
   strictEqual(await header.getText(), expectedHeader);
 });
