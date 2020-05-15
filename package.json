@@ -38,7 +38,8 @@
     "example",
     "integration test",
     "selenium",
-    "selenium-webdriver"
+    "selenium-webdriver",
+    "webdriver manager"
   ],
   "license": "MIT",
   "lint-staged": {
