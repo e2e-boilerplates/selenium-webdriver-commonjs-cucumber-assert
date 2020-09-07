@@ -2,7 +2,7 @@
     
 # Selenium-WebDriver Boilerplate
     
-Selenium-WebDriver end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Cucumber](https://github.com/cucumber/cucumber-js) and [Commonjs](https://nodejs.org/api/assert.html).. Clone or fork this repository.
+Selenium-WebDriver end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Cucumber](https://github.com/cucumber/cucumber-js) and [Commonjs](https://nodejs.org/api/assert.html). Clone or fork this repository.
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/selenium-webdriver-commonjs-cucumber-assert.git
